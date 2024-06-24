@@ -95,7 +95,8 @@ h5{
     }
 
     .header-title,
-    .header-subtitle {
+    .header-subtitle,
+    .cartel_estreno {
         max-width: 80%;
     }
 }
@@ -107,8 +108,9 @@ h5{
     }
     
     .header-title,
-    .header-subtitle {
-        max-width: 50%;
+    .header-subtitle,
+    .cartel_estreno {
+        max-width: 80%;
     }
 
 }
