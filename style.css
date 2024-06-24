@@ -1,0 +1,272 @@
+body,html {
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #F5F6EA;
+    overflow-x: hidden;
+}
+
+h5{
+    font-weight: 700;
+}
+
+.custom-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+}
+
+.custom-font-navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+
+
+.header-container {
+    background-image: url(Assets/01/asset_02-r.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    max-height: 1144px;
+    background-color: #f5f6ea;
+}
+
+
+.container-subheader {
+    background-image: url(Assets/02/Group\ 27.png);
+    background-color: #aa8f02;
+    background-position: center top;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 130%;
+}
+
+.header-title,
+.header-subtitle {
+    margin-bottom: 10px;
+}
+
+.btn-conoce-mas{
+    color: white;
+}
+
+.resena-container,
+.container-frame,
+.container-personajes {
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.resena-container {
+    background-color:  #a6c9f0 !important;
+    background-position: center bottom;
+}
+
+.resena-title {
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-frame {
+    background-image: url(Assets/03/asset_07.png);
+    background-color: #EEB5D8;
+}
+
+.tv-frame {
+    border: 20px solid #e8bf5c;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    .header-container{
+        padding: 60px 0;
+    }
+
+    .header-title,
+    .header-subtitle {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .header-container{
+        padding: 40px 0;
+    }
+    
+    .header-title,
+    .header-subtitle {
+        max-width: 50%;
+    }
+
+}
+
+.custom-tarjeta-azul{
+    background-color: #A6C9F0;
+    color: #35352E;
+    .linea {
+        border: none; 
+        height: 3px; 
+        background-color: #35352E; 
+        margin: 5px 0;
+      }
+}
+
+.imagen-sec-2{
+    background-color: #aa8f02;
+}
+/* SECCION RESEÑA */
+
+.container-personajes {
+    background-color: #f5f6ea;
+}
+
+.container-descripcion-personajes {
+    background-color: #F5F6EA;
+}
+
+.container-personajes-background{
+    background-image: url(Assets/04/asset_11.png);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.custom-marginTexto1{
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.custom-marginTexto2{
+    margin-left: 55px;
+    margin-right: 75px;
+    margin-bottom: 0px;
+}
+
+.custom-marginImagen2{
+    margin-top: 70px;
+}
+
+.custom-tarjeta-naranja-5{
+    background-color: #ED6736;
+    color: white;
+    border-radius: 15px;
+}
+
+.color-sec-6-custom{
+    background-color: #E8BF5C;
+}
+
+.texto-sec-6{
+    margin-top: 5%;
+}
+
+.custom-tarjeta-naranja-6{
+    background-color: #ED6736;
+    color: white;
+}
+
+.custom-titulo-tarjeta-2{
+    margin: 2%;
+}
+
+.tarjeta-sec-6{
+    border-width: 3px;
+    border-color: #ED6736;
+    border-style: solid;
+    background-color: #A6C9F0;
+}
+
+.custom-list{
+    list-style-type: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tarjeta1-sec-7{
+    border-width: 5px;
+    border-color: #ED6736;
+    border-style: solid;
+    border-left-width:50px;
+    padding: 3%;
+}
+
+.tarjeta2-sec-7{
+    border-width: 5px;
+    border-color: #A6C8F0;
+    border-style: solid;
+    border-left-width:50px;
+    padding: 3%;
+}
+
+.tarjeta3-sec-7{
+    border-width: 5px;
+    border-color: #AA902F;
+    border-style: solid;
+    border-left-width:50px;
+    padding: 3%;
+}
+
+.contenedor-seccion-8{
+    background-color: #E8BF5C;
+    background-image: url(Assets/08/asset_26r.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tarjeta-sec-8{
+    border-width: 14px;
+    border-color: #FF5F21;
+    border-style: solid;
+    background-color: #EEB5D8;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-rosa{
+    background-color: #EEB5D8;
+}
+
+.btn-social {
+    background-color: #EEB5D8;
+    border-radius: 50%; /* Para hacer el botón redondo */
+    width: 60px; /* Ajusta el tamaño del botón según tus necesidades */
+    height: 60px; /* Ajusta el tamaño del botón según tus necesidades */
+    padding: 0; /* Quita cualquier relleno interno */
+    margin-top: 17%;
+    margin-left: 14%;
+    border: none; /* Quita cualquier borde */
+    display: flex; /* Para que la imagen se alinee correctamente */
+    justify-content: center; /* Para centrar la imagen horizontalmente */
+    align-items: center; /* Para centrar la imagen verticalmente */
+}
+
+.btn-social img {
+    width: 35px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
+.texto-footer{
+    padding: 0;
+    margin-top: 6%;
+    margin-left: 14%;
+}
