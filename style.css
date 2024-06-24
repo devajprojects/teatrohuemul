@@ -26,16 +26,15 @@ h5{
 
 
 .header-container {
-    background-image: url(Assets/01/asset_02-r.png);
-    background-size: cover;
+    background-position: center bottom;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center top;
     text-align: center;
     color: #fff;
-    height: 100vh;
-    max-height: 1144px;
     background-color: #f5f6ea;
 }
+
+
 
 
 .container-subheader {
